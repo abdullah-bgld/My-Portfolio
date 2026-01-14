@@ -131,7 +131,7 @@ text-align: center;
     margin-bottom: 30px;
 }
 
-#about {
+#about, #skill , #resume {
     padding-top: 130px;
     /* border: 100px solid white; */
     text-align: center;
@@ -165,13 +165,9 @@ text-align: center;
 .about-info .info-card h4 {
     font-size: 20px;
 }
-
-#skill {
-    padding-top: 130px;
-    /* border: 5px solid; */
-}
     .skill-headings {
-        text-align: center;}
+        text-align: center;
+    gap: 50px ;}
 
 #skill .skill-container{
     /* border: 2px solid; */
@@ -211,3 +207,19 @@ text-align: center;
     line-height: 28px;
     margin-bottom: 30px;
    }
+
+   #resume .resume-container{
+    width:71% ;
+    max-width: 1140px;
+    gap: 24px;
+    margin: 113px auto 0 ;
+   display: flex;
+
+}
+
+.resume-container .section-tittle{
+font-size: 30px;
+color: #474747;
+margin-bottom: 30px;
+font-weight: bold;
+}
