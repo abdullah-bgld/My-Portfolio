@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .font-open-sans{
@@ -11,11 +12,12 @@
 
 header {
     background-color: #FFF8F3;
-    padding-top: 50px;
-    background-image: url("../images/developer.png"),url(../images/header_bg.png);
+    background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
+    background-position: 53px 38px, bottom right;
     background-repeat: no-repeat;
-    background-position: top left,bottom right;
+    padding-top: 50px;
 }
+
 
 nav{
     width: 71%;
@@ -53,6 +55,21 @@ nav .menu a{
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+    transition: 0.3s;
+}
+.btn2{
+    border: none;
+    color: #FD6E0A;
+    border-color: #FD6E0A;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;}
+
+.btn:hover{
+    color: gold;
 }
 
 #banner{
@@ -87,6 +104,110 @@ line-height: 30px;
 }
 
 #banner .banner-image img{
-    max-width: 585px;
+     max-width: 685px 90%;
     vertical-align: middle;
 }
+.section-heading{
+  max-width: 827px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #FFF8F3;
+
+}
+
+.section-heading h2{
+max-width: 827px;
+text-align: center;
+}
+
+.section-heading h2{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.section-heading p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#about {
+    padding-top: 130px;
+    /* border: 100px solid white; */
+    text-align: center;
+   
+
+
+}
+
+#about .about-container{
+   
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+    border: #FFF8F3;
+}
+ 
+
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-around   ;
+}
+
+.about-info .info-card p{
+    color: #757575;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.about-info .info-card h4 {
+    font-size: 20px;
+}
+
+#skill {
+    padding-top: 130px;
+    /* border: 5px solid; */
+}
+    .skill-headings {
+        text-align: center;}
+
+#skill .skill-container{
+    /* border: 2px solid; */
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* .skill-container .skil-headings{ */
+
+.skill-container .skill-box{
+    /* border: solid; */
+    display: flex;
+   gap: 24px;}
+
+   .skill-box .skill-card{
+    padding: 30px;
+    max-width: 267px;
+    box-shadow: 0 6px 50px 0 #00000006;
+    /* border: 1px solid salmon; */
+   }
+
+   .skill-card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+   }
+
+   .skill-card h3{
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+   }
+
+   .skill-card p{
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+   }
