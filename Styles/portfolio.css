@@ -107,7 +107,9 @@ line-height: 30px;
      max-width: 685px 90%;
     vertical-align: middle;
 }
-.section-heading{
+
+/* about section */
+.about-heading{
   max-width: 827px;
   margin: 0 auto;
   text-align: center;
@@ -150,6 +152,10 @@ text-align: center;
     border: #FFF8F3;
 }
  
+#about .about-container .about-heading h2,p {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;}
 
 #about .about-container .about-info{
     display: flex;
@@ -158,14 +164,16 @@ text-align: center;
 
 .about-info .info-card p{
     color: #757575;
-    line-height: 30px;
     font-size: 20px;
 }
 
 .about-info .info-card h4 {
     font-size: 20px;
 }
-    .skill-headings {
+
+
+/* skill section */
+.skill-headings {
         text-align: center;
     gap: 50px ;}
 
